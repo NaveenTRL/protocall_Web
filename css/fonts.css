@@ -1,0 +1,86 @@
+/************** Font css styles *********/
+@font-face {
+    font-family:OpenSansLight;
+    src: url('fonts/OpenSans-Light_0.ttf');
+}
+
+@font-face {
+    font-family:OpenSansLightItalic;
+    src: url('fonts/OpenSans-LightItalic_0.ttf');
+}
+
+@font-face {
+    font-family:OpenSansSemibold;
+    src: url('fonts/OpenSans-Semibold_0.ttf');
+}
+
+@font-face {
+    font-family:OpenSansSemiboldItalic;
+    src: url('fonts/OpenSans-SemiboldItalic_0.ttf');
+}
+
+@font-face {
+    font-family:OpenSansRegular;
+    src: url('fonts/open-sans.regular.ttf');
+}
+
+@font-face {
+    font-family:OpenSansBold;
+    src: url('fonts/OpenSans-Bold_0.ttf');
+}
+@font-face {
+    font-family:OpenSansItalic;
+    src: url('fonts/OpenSans-Italic_0.ttf');
+}
+
+@font-face {
+    font-family:OpenSansBoldItalic;
+    src: url('fonts/OpenSans-BoldItalic_0.ttf');
+}
+
+@font-face {
+    font-family:PTSansLight;
+    src: url('fonts/PTS55F.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:PTSansLightItalic;
+    src: url('fonts/PTS56F.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family:PTSansBold;
+    src: url('fonts/PTS75F.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:PTSansBoldItalic;
+    src: url('fonts/PTS76F.ttf') format('truetype');
+}
+
+.opensans-light{
+    font-family:'Open Sans', sans-serif !important;
+    font-weight: 300;
+}
+
+.opensans-sbold{
+    font-family:'OpenSansSemibold','Open Sans' !important;
+}
+.opensans-regular{
+    font-family: 'OpenSansRegular','Open Sans' !important;
+	
+}
+.opensans-bold {
+    font-family:'OpenSansBold','Open Sans' !important;
+}
+.ptsans-light{
+    font-family: 'OpenSansRegular','Open Sans' !important;
+}
+.ptsans-bold{
+    font-family:'PTSansBold';
+}
+
+.opensan-italic {
+	font-family : OpenSansItalic,'Open Sans' !important;
+}

@@ -1,0 +1,32 @@
+.login-logo{margin:auto;text-align:center;margin-top: 60px;height: 85px;width: 100%;/* margin-left: 5%; */}
+.login-type-box1{display:inline-block;width: 23%;min-width: 94px;height:350px;max-width: 200px;vertical-align:middle;margin-left: 0%;font-family: sans-serif;font-weight: 200;}
+.login-type-box2{display:inline-block;width: 28%;padding-right: -8px;max-width: 520px;min-width: 440px;height: 365px;vertical-align:middle;background: #f4f5f5;margin-left:-4px;box-shadow: 0 0 1px 1px #CCC;}
+.ctrl-login-box{width: 100%;margin:auto;padding-top:40px;padding-left: -21px;/* margin-left: 26px; */pa: 25px;min-height:400px;max-width: 798px;/* min-width: 531px; */}
+.mylistbox{padding: 15px 0px;
+background: lightgray;margin-bottom:10px;text-align:center;color:white;cursor:pointer;font-size: 16px;margin-right: 1px;text-overflow: ellipsis;border-radius: 5px;}
+.login-head{color: #f34f4e;text-align: center;padding: 20px 0px;font-size: 26px;margin-top: 20px;margin-bottom: -24px;}
+.box {padding-left: 70px;padding-right: 70px;padding-top: 20px;}
+.box div input{background:none;color:black;}
+.userbox{border:solid 1px #D2DBDE;color: darkslategray;margin-bottom: 25px;height: 41px;font-size: 15px;cursor: pointer;background-color: white;}
+.passbox{border:solid 1px lightgrey;color:black;margin-bottom: 25px;}
+.logbutton{background:#f34f4e;color:white;margin-bottom: -7px;cursor:pointer;margin-top: 10px;font-family: monospace;}
+
+/* Webkit */
+::-webkit-input-placeholder { color: #CCC; }
+
+/* Firefox 4-18 */
+:-moz-placeholder { color: #CCC; }
+
+/* Firefox 19+ */
+::-moz-placeholder { color: #CCC; }
+
+/* IE10+ */
+:-ms-input-placeholder { color: #CCC; }
+
+.loginbutton{cursor:pointer;color: #fffbfb !important;font-weight: bold;font-family: 'OpenSansRegular' 'Open Sans';font-size:18px;}
+
+.login-error{padding: 0px 20px;color: red;text-align: center;}
+.signup-error{padding: 0px 20px;color: red;text-align: center;}
+.signup-success{padding: 0px 20px;color: green;text-align: center;}
+
+.resetpassword-text{padding:15px 0px;}

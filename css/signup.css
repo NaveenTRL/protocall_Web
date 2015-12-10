@@ -1,0 +1,189 @@
+
+.root-logo-content{
+    width: 200px;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 28px;
+    position: initial !important;
+}
+
+.o-btn-yes{
+    width: 16%;
+    min-width: 55px;
+    height:42px;
+    line-height:40px;
+    position:relative;
+    margin: 20px auto;
+    text-align: center;
+    /* margin-right: 5px; */
+    margin-left: 60px;
+    left: 20%;
+}
+.o-btn-no{
+    width: 16%;
+    min-width: 55px;
+    height:42px;
+    line-height:40px;
+    position:relative;
+    margin: 20px auto;
+    text-align: center;
+    margin-left: -100px;
+    left: 42%;
+}
+.signup-root-content{
+    max-width: 490px;
+    width: 100%;
+    min-width: 330px;
+    max-width: 400px;
+    background-color: #f4f5f5;
+    margin: auto;
+    top: 14px;
+    margin-top: 77px;
+    margin-bottom: 20px;
+    display: inline-grid;
+    box-shadow: 0 0 1px 1px #CCC;
+}
+.signup-parent-content{
+    margin: 20px 50px 0px 50px;
+    height: 400px;
+    background: transparent;
+    overflow: a;
+}
+.c-signup-text{
+    margin-bottom: 10px;
+}
+.signup-text{
+    top: 35px;
+
+}
+.login-text{
+    margin-bottom: 10px;}
+.opensans-regular{
+    font-family:'OpenSansRegular';
+}
+.c-firstname{
+    height: 41px;
+    margin-top: 15px;
+    top: -11px;
+    background: white;
+}
+.firstname-icon{
+    height: 40px;
+    width: 20%;
+}
+.firstname-textbox{
+    height: 40px;
+    width: 80%;
+    color: black;
+}
+
+.completed-button {
+    width: 100%;
+    height:42px;
+    line-height:40px;
+    position:relative;
+    margin: 20px auto 15px auto;
+    text-align: center;
+
+}
+.c-info-icon{
+    right: 0px;
+}
+.o-signup{
+    height: 93px;
+    width: 100px;
+    top: -72px;
+    left: 33%;
+    background-color: white;
+    border-radius: 150px; 
+    border: 2px solid #ccc;
+}
+.o-signup-icon{
+    left: 18px;
+    top: 25px;
+}
+.o-signup-reset{
+    height: 96px;
+    width: 100px;
+    top: -77px;
+    left: 38%;
+    background-color: white;
+    border-radius: 150px; 
+    border: 2px solid #ccc;
+}
+
+div#id-emailid-infobox span {
+    position: absolute;
+    width:200px;
+    color: black;
+    background: #DCEDEC;
+    height: 30px;
+    right: -160px;
+    top: 14%;
+    line-height: 30px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 6px;
+
+}
+div#id-emailid-infobox span:after {
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #DCEDEC; 
+    position: absolute;
+    top: 20%;
+    left: -4%;
+}
+div:hover#id-emailid-infobox span {
+    visibility: visible;
+    opacity: 0.8;
+    bottom: 30px;
+    left: 80%;
+    margin-left: 25px;
+    z-index: 999;
+}
+
+div#id-emailpassword-infobox span {
+    position: absolute;
+    width:280px;
+    color: black;
+    background: #DCEDEC;
+    height: 130px;
+    right: -160px;
+    top: 2%;
+    line-height: 30px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 6px;
+    text-align: left;
+}
+div#id-emailpassword-infobox span:after {
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #DCEDEC; 
+    position: absolute;
+    top: 6%;
+    left: -3%;
+}
+div:hover#id-emailpassword-infobox span {
+    visibility: visible;
+    opacity: 0.8;
+    bottom: 30px;
+    left: 80%;
+    margin-left: 25px;
+    z-index: 999;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #636363;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #636363;
+}
+.o-btn-yes:hover{background: #f34f4e;}
+.o-btn-no:hover{background: #f34f4e;}

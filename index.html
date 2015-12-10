@@ -1,0 +1,73 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Protocall</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="icon" type="image/png" href="images/faviocn.png"/>
+        <link rel="stylesheet" type="text/css" href="css/signup.css"/>
+        <link rel="stylesheet"  type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
+        <link rel="stylesheet" href="css/custom.css" type="text/css"/>
+        <link rel="stylesheet" href="css/media.css" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/libs/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script src="js/libs/moment.js"></script>
+        <script src="js/libs/moment-timeZone.js"></script>
+        <script src="js/libs/md5-3-1-2.js"></script>
+        <link href="css/highlight.css" rel="stylesheet">
+        <link href="css/bootstrap-switch.css" rel="stylesheet">
+        <link href="http://getbootstrap.com/assets/css/docs.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <link href="css/login.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>     
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <!--[if IE]>
+                <link rel="stylesheet" type="text/css" href="css/ie-only.css" />
+        <![endif]-->
+        <script src="js/fill.box.js"></script>
+
+        <link rel="stylesheet" href="css/colorpicker.css" type="text/css" />
+        <script type="text/javascript" src="js/colorpicker.js"></script>
+
+
+
+
+    </head>
+    <body>
+        <div id="page" class="anim page" style="opacity: 1; padding: 5px; height: 100%; overflow: hidden;">
+        </div>        <div id="spinner" class="anim anim-opacity overlay spinner" style="display:none;">
+            <div class="spin-class p-absolute">
+                <div class="loader">Loading...</div>
+            </div>
+        </div>        <div id="overlay" data-type="closeOverlay" class="overlay overlay-snap" style="display:none;"></div>
+
+        <div id="pop-up-content" class="pop-up-content" style="display:none;"></div>
+        <script src="js/server.js"></script> 
+        <script>
+
+            function serverInit() {
+                var Root = 'https://2-dot-proto-call-test.appspot.com/_ah/api';
+                gapi.client.load('protocall', 'v1', utils.server.authendicate, Root);
+
+            }
+            function loginmask() {
+                return false;
+            }
+        </script>	
+        <script src="https://apis.google.com/js/client.js?onload=serverInit"></script>
+        <script src="js/index.js" type="text/javascript"></script>
+        <script src="js/login.js" type="text/javascript"></script>
+        <script src="js/template.js" type="text/javascript"></script>
+        <script src="js/static.js" type="text/javascript"></script>
+        <script src="js/home.js" type="text/javascript"></script>
+        <script src="js/carrier.js" type="text/javascript"></script>
+        <script src="js/customer.js" type="text/javascript"></script>
+        <script src="js/myreps.js" type="text/javascript"></script>
+        <script src="js/overlay.js" type="text/javascript"></script>
+        <script src="js/agency.js" type="text/javascript"></script>
+        <script src="js/footer.js" type="text/javascript"></script>
+        <script src="js/header.js" type="text/javascript"></script>
+        <script src="js/Module_ServerCall.js" type="text/javascript"></script>
+    </body>
+</html>
